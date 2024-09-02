@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Of Engineering Chengannur</title>
+    <link rel="icon" type="image/x-icon" href="eduford_img/ceclogo.png">
+    <link href="carousel.html" rel="import" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carousal.css">
+    <link rel="stylesheet" href="social.css">
+    <script src="carousal.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a class="logo" href="index.html"><img src="eduford_img/ceclogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>College Of Engineering Chengannur</h1>
+        <p>
+            The College of Engineering Chengannur (CEC), was established by the Government of Kerala under the aegis of the IHRD, in the year 1993.<br> It has been approved by All India Council for Technical Education (AICTE) and affiliated to APJ Abdul Kalam Technological University (KTU). Ever since its inception, the college has maintained its eminence as a leading engineering college in Kerala. Being located in Chengannur town, Alleppey district the college has got access to all means of transport, communication and lodging facilities. 
+        </p>
+        <a href="https://ceconline.edu/" class="hero-btn">Visit Us To know More!!</a>
+    </div>
+         
+    </section>
+    <section class="course">
+        <h1>Vision</h1>
+        <p>To emerge as an institution of excellence that imparts knowledge through education, learning, and research for the inclusive development of society.</p>
+
+    </section>
+    <!----Course -->
+    <section class="course">
+        <h1>Courses we Offer</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>B.Tech</h3>
+                <p>
+                    College offers 4 courses: <br><a href="https://ceconline.edu//academics/departments/computer-science/">1.Computer Science engineering </a><br>2.Electrical & Electronics Engineering <br>3.Electronics and Communication Engineering
+                </p>
+            </div>
+                <div class="course-col">
+                    <h3>M.Tech</h3>
+                    <p>
+                        College offers two M. Tech course for both Computer Science and Electronics Departments, in the field of: <br>1.VLSI & Embedded Systems <br>2.Digital Image Processing
+                    </p>
+                </div>
+                    <div class="course-col">
+                        <h3>MCA</h3>
+                        <p>
+                            Master of Computer Applications (MCA) programme was started in the year 2022. The MCA programme is structured on a credit based system following the semester pattern with continuous evaluation. The duration of the MCA programme of the KTU will be two years consisting of four semesters.
+                        </p>
+                    </div>
+            
+        </div>
+    </section>
+     <!-----javascript for toggle menu---->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+     <!-- Slideshow container -->
+<div class="slideshow-container fade">
+  <br>
+  <!----For carousel effect-->
+  <div class="pic-ctn">
+    <div class="pic"></div>
+    <div class="pic"></div>
+    <div class="pic"></div>
+    <div class="pic"></div>
+    <div class="pic"></div>
+</div>
+
+  <div class="Social-media">
+    <h2>Our Social Media Links</h2>
+    <a href="https://www.linkedin.com/school/college-of-engineering-chengannur/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/cec_chengannur/" class="fa fa-instagram"></a>
+  </div>
+  <script>
+    var loader= document.getElementById("container")
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
+  </script>
+</body>
+</html>
+
